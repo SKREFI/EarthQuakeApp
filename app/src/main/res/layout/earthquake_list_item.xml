@@ -8,20 +8,23 @@
 
     <TextView
         android:id="@+id/mg_textview"
-        android:layout_width="100dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         tools:text="7.2" />
 
     <TextView
         android:id="@+id/location_textview"
-        android:layout_width="100dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         tools:text="London" />
 
     <TextView
 
         android:id="@+id/date_textview"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         tools:text="July 20, 2015" />
 </LinearLayout>
