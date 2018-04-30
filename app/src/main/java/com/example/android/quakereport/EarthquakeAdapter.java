@@ -23,7 +23,7 @@ public class EarthquakeAdapter extends ArrayList<Earthquake> {
         TextView tvDate;
 
         ViewHolder(View v){
-            tvDate = v.findViewById(R.id.date_textview)
+            tvDate = v.findViewById(R.id.date_textview);
             tvLocation = v.findViewById(R.id.location_textview);
             tvMg = v.findViewById(R.id.mg_textview);
         }
